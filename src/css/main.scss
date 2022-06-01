@@ -1,0 +1,15 @@
+@use "./colors.scss" as color;
+
+#randomInt {
+  background-color: color.$main;
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+}
+
+#randomRange {
+  background-color: color.$secondary;
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+}
